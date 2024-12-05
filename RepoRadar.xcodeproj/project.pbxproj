@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		599444A92D020300005203D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59B1E7E62CFC62B20097C2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B1E7ED2CFC62B20097C2C3;
+			remoteInfo = RepoRadar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		599444A52D020300005203D8 /* RepoRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B1E7EE2CFC62B20097C2C3 /* RepoRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		599444A62D020300005203D8 /* RepoRadarTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RepoRadarTests;
+			sourceTree = "<group>";
+		};
 		59B1E7F02CFC62B20097C2C3 /* RepoRadar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RepoRadar;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		599444A22D020300005203D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59B1E7EB2CFC62B20097C2C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				59B1E7F02CFC62B20097C2C3 /* RepoRadar */,
+				599444A62D020300005203D8 /* RepoRadarTests */,
 				59B1E7EF2CFC62B20097C2C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				59B1E7EE2CFC62B20097C2C3 /* RepoRadar.app */,
+				599444A52D020300005203D8 /* RepoRadarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		599444A42D020300005203D8 /* RepoRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599444AB2D020300005203D8 /* Build configuration list for PBXNativeTarget "RepoRadarTests" */;
+			buildPhases = (
+				599444A12D020300005203D8 /* Sources */,
+				599444A22D020300005203D8 /* Frameworks */,
+				599444A32D020300005203D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599444AA2D020300005203D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				599444A62D020300005203D8 /* RepoRadarTests */,
+			);
+			name = RepoRadarTests;
+			packageProductDependencies = (
+			);
+			productName = RepoRadarTests;
+			productReference = 599444A52D020300005203D8 /* RepoRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		59B1E7ED2CFC62B20097C2C3 /* RepoRadar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B1E7FE2CFC62B40097C2C3 /* Build configuration list for PBXNativeTarget "RepoRadar" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					599444A42D020300005203D8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 59B1E7ED2CFC62B20097C2C3;
+					};
 					59B1E7ED2CFC62B20097C2C3 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				59B1E7ED2CFC62B20097C2C3 /* RepoRadar */,
+				599444A42D020300005203D8 /* RepoRadarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		599444A32D020300005203D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59B1E7EC2CFC62B20097C2C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		599444A12D020300005203D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59B1E7EA2CFC62B20097C2C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		599444AA2D020300005203D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59B1E7ED2CFC62B20097C2C3 /* RepoRadar */;
+			targetProxy = 599444A92D020300005203D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		599444AC2D020300005203D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavelbelenkow.RepoRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepoRadar";
+			};
+			name = Debug;
+		};
+		599444AD2D020300005203D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavelbelenkow.RepoRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepoRadar";
+			};
+			name = Release;
+		};
 		59B1E7FC2CFC62B40097C2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +424,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		599444AB2D020300005203D8 /* Build configuration list for PBXNativeTarget "RepoRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599444AC2D020300005203D8 /* Debug */,
+				599444AD2D020300005203D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		59B1E7E92CFC62B20097C2C3 /* Build configuration list for PBXProject "RepoRadar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
